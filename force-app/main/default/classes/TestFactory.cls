@@ -4,7 +4,7 @@
  * @Author             : ChangeMeIn@UserSettingsUnder.SFDoc
  * @Group              : 
  * @Last Modified By   : ChangeMeIn@UserSettingsUnder.SFDoc
- * @Last Modified On   : 10/13/2019, 5:32:12 PM
+ * @Last Modified On   : 10/13/2019, 5:36:21 PM
  * @Modification Log   : 
  * Ver       Date            Author      		    Modification
  * 1.0    10/13/2019   ChangeMeIn@UserSettingsUnder.SFDoc     Initial Version
@@ -18,7 +18,7 @@ private class TestFactory {
             Account a = new Account(Name = 'Test Account ' + i);
             accts.add(a);
         }
-        // insert accounts
+        // insert accounts --------
         insert accts;
     }
 }
